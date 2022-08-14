@@ -38,7 +38,7 @@ insert into Perro (Nombre,Fecha_nac,Sexo,Dueno_DNI) Values ('Morron','02/10/2008
 insert into Dueno Values (35551800,'Pedro','Pinto','3521-437866','Dean Funes 408')
 insert into Perro (Nombre,Fecha_nac,Sexo,Dueno_DNI) Values ('PANCHA','17/05/2010','HEMBRA',35551800)
 
---Ejercico 4
+--Ejercico numero 4
 select P.Nombre from Perro P
 inner join Dueno D on D.DNI = P.Dueno_DNI
 where D.Nombre ='Pedro'
